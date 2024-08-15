@@ -4,7 +4,7 @@ import GptSearch from "./GptSearch";
 import GptSearchBar from "./GptSearchBar";
 import GptSuggestions from "./GptSuggestions";
 import Header from "./Header";
-import { toggleGPTSearchPage } from "../utils/GptSlice";
+
 
 const SearchPage=()=>{
     

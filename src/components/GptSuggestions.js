@@ -5,6 +5,7 @@ import MovieCart from "./MovieCart";
 const GptSuggestions=()=>{
     const search=useSelector((store)=>(store.gpt.moviesResults));
     const specificMovie=useSelector((store)=>store.movie);
+
    
   return(
     <div className="m-4 p-4 bg-black text-white bg-opacity-80">

@@ -6,7 +6,6 @@ import usePopularMovies from "../hooks/usePopularMovies";
 import useUpcomingMovies from "../hooks/useUpcomingMovies";
 import useTrendingMovies from "../hooks/useTrendingMovies";
 import { useSelector } from "react-redux";
-import SearchPage from "./SearchPage";
 import GptSearch from "./GptSearch";
 
 

@@ -51,14 +51,14 @@ useEffect(() => {
     return () => unsubscribe();
   }, []);
   return (
-    <div className="absolute w-[100%] px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
+    <div className="absolute w-[100%] px-8 py-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between">
       <img
-        className="w-44"
+        className="w-44 mx-auto md:mx-0"
         src={LOGO}
         alt="logo"
       />
       {user && (
-        <div className="flex p-2">
+        <div className="flex p-2 mx-auto md:mx-0">
           <button className="text-white bg-red-700 p-2 mx-2 rounded-lg" onClick={toggleSearchPageHandler}>{toggle ? "Home Page":"GPT Search"}</button>
           <img className="w-12 h-12 mx-4 rounded-lg" alt="usericon" src={ICON}/>
           <button onClick={handleSignOut} className="font-bold text-white ">

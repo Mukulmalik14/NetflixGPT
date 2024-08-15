@@ -48,12 +48,12 @@ const GptSearchBar=()=>{
 
     
     return(
-        <div className="pt-[10%] flex justify-center">
-            {toggleSearch?  <form className="w-1/2 grid grid-cols-12" onSubmit={(e)=>e.preventDefault()}>
+        <div className="pt-[40%] md:pt-[10%] sm:pt-[25%] flex justify-center mx-2">
+            {toggleSearch?  <form className="md:w-1/2 w-[100%] grid grid-cols-12 " onSubmit={(e)=>e.preventDefault()}>
                 <input type="text" placeholder="What exiting movies you wanted to watch" className="p-3 bg-gray-200 col-span-9" ref={searchSpecificMovie}></input>
                 <button className="p-3 text-white bg-red-700 col-span-3 ml-1" onClick={searchTheSpecificMovies}>Movie Search</button> 
             </form> 
-            :<form className="w-1/2 grid grid-cols-12" onSubmit={(e)=>e.preventDefault()}>
+            :<form className="md:w-1/2 w-full grid grid-cols-12" onSubmit={(e)=>e.preventDefault()}>
                 <input type="text" placeholder="What type of exiting movies you wanted to watch" className="p-3 bg-gray-200 col-span-9" ref={searchMovie}></input>
                 <button className="p-3 text-white bg-red-700 col-span-3 ml-1" onClick={searchTheMovies}>AI Search</button>   
             </form>}
