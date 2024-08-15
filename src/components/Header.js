@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { ICON, LOGO } from "../utils/constants";
 import { addUser,removeUser } from "../utils/userSlice";
 import { onAuthStateChanged } from "firebase/auth";
-import { toggleGPTSearchPage, toggleSearchPage } from "../utils/GptSlice";
+import { toggleSearchPage } from "../utils/GptSlice";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -22,9 +22,7 @@ const Header = () => {
       });
 };
 
-const toggleGPTSearchPageHandler=()=>{
-    dispatch(toggleGPTSearchPage());
-}
+
 const toggleSearchPageHandler=()=>{
   dispatch(toggleSearchPage());
   
