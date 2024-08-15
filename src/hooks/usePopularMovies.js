@@ -10,6 +10,7 @@ const usePopularMovies=()=>{
         const popularMovies=await fetchMovies.json();
         dispatch(addPopularMovies(popularMovies.results));
       }
+/* eslint-disable react-hooks/exhaustive-deps */
 
       useEffect(()=>{getPopularMovies()},[]);
 }

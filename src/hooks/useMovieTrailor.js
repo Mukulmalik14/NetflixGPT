@@ -12,6 +12,7 @@ const useMovieTrailor=(movieId)=>{
         const trailor=fetchData.results.filter((video)=> video.name==="Official Trailer");
         dispatch(addTrailorVideo(trailor));
     }
+/* eslint-disable react-hooks/exhaustive-deps */
 
     useEffect(()=>{getTrailorVideo()},[]);
 }

@@ -11,6 +11,7 @@ const useTrendingMovies=()=>{
         const fetchData=await trendingMovies.json();
         dispatch(addTrendingMovies(fetchData.results));
       }
+/* eslint-disable react-hooks/exhaustive-deps */
 
     useEffect(()=>{getTrendingMovies()},[]);  
 }

@@ -27,6 +27,7 @@ const toggleSearchPageHandler=()=>{
   dispatch(toggleSearchPage());
   
 }
+/* eslint-disable react-hooks/exhaustive-deps */
 
 useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {

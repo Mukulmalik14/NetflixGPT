@@ -10,6 +10,7 @@ const useUpcomingMovies=()=>{
         const upcomingMovies=await fetchMovies.json();
         dispatch(addUpcomingMovies(upcomingMovies.results));
       }
+/* eslint-disable react-hooks/exhaustive-deps */
 
       useEffect(()=>{getUpcomingMovies()},[]);
 }

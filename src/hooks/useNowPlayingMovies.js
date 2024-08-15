@@ -12,6 +12,7 @@ const useNowPlayingMovies=()=>{
 
         dispatch(addNowPlayingMovies(fetchData.results));
      }
+/* eslint-disable react-hooks/exhaustive-deps */
 
      useEffect(()=>{getNowPlayingMovies()},[]);
 
