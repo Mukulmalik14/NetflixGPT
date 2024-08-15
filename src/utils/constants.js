@@ -14,6 +14,4 @@ export const IMG_CDN="https://image.tmdb.org/t/p/w200/";
 
 export const BG_IMG="https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg"
 
-export const OPENAI_KEY="sk-Qee3jfSXbQGvbWAXUMYS7vrM1DyDcYT2wBr-IAOUETT3BlbkFJwRij6EoF5zydLfDkRXgntI1R5JwdUxeEeuw2vanh0A";
-
 export const GEMINI_KEY="AIzaSyAey1wumNGY1szCvfnYtYtDGo6dx1V-Eqo";
